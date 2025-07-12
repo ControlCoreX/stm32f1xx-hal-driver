@@ -7,7 +7,7 @@ pw_add_library_generic(stm32f1xx_hal_driver STATIC
     PUBLIC_INCLUDES
         Inc
         Inc/Legacy
-    PRIVATE_DEFINES
+    PUBLIC_DEFINES
         USE_HAL_DRIVER
         USE_FULL_LL_DRIVER
     PUBLIC_DEPS
